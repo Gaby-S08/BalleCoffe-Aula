@@ -58,18 +58,13 @@ main {
 
 .info {
     max-width: 1120px; /* Define a largura máxima do elemento com 1120 pixels */
-    height: 60vh; /* Define a altura do elemento como 60% da altura da janela de
-    visualização (viewport height) */
+    height: 60vh; /* Define a altura do elemento como 60% da altura da janela de visualização (viewport height) */
     display: flex; /* Define o elemento como um container flexível */
-    flex-direction: row; /* Estabelece a direção dos elementos filhos para uma
-    disposição em linha */
-    justify-content: space-between; /* Distribui os elementos filhos uniformemente ao
-    longo do eixo principal, com espaçamento entre eles */
-    gap: 6rem; /* Define o espaçamento entre os elementos filhos como 6 vezes o
-    tamanho da unidade rem */
+    flex-direction: row; /* Estabelece a direção dos elementos filhos para umadisposição em linha */
+    justify-content: space-between; /* Distribui os elementos filhos uniformemente aolongo do eixo principal, com espaçamento entre eles */
+    gap: 6rem; /* Define o espaçamento entre os elementos filhos como 6 vezes otamanho da unidade rem */
     align-items: center; /* Alinha os elementos filhos verticalmente ao centro */
-    padding: 0rem 2rem; /* Define o preenchimento (padding) do elemento vertical e
-    2 vezes o tamanho da unidade rem na direção horizontal */
+    padding: 0rem 2rem; /* Define o preenchimento (padding) do elemento vertical e 2 vezes o tamanho da unidade rem na direção horizontal */
     margin: auto; /* Centraliza o elemento horizontalmente na tela */
     overflow: clip; /* Evita o conteúdo ultrapassar o container (No caso as fotos) */
 }
